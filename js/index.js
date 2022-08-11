@@ -70,14 +70,3 @@ var show_work = skills () {
 } 
  
 
-
-
-tools.addEventListener('click', show_tools)
-
-var show_work = function () { 
-    professional_body.classList.add('hide');
-     work_body.classList.add('hide');
-     education_body.classList.add('hide');
-     skills.classList.add('hide');
-     tools.classList.remove('hide');} 
- 
