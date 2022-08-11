@@ -10,8 +10,6 @@ var education_body = document.getElementById('education_body');
 var skills = document.getElementById('skills'); 
 var skills_body = document.getElementById('skills_body');
 
-var tools = document.getElementById('tools'); 
-var tools_body = document.getElementById('tools_body');
 
 console.log("hello")
 
