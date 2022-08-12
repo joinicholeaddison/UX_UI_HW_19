@@ -19,8 +19,8 @@ var show_professional = function () {
     work_body.classList.add('hide');
     professional_body.classList.remove('hide');
    education_body.classList.add('hide');
-   skills.classList.add('hide');
-   tools.classList.add('hide');
+   skills_body.classList.add('hide');
+  
 } 
 
 
@@ -30,41 +30,35 @@ var show_work = function () {
    professional_body.classList.add('hide');
     work_body.classList.remove('hide');
     education_body.classList.add('hide');
-    skills.classList.add('hide');
-    tools.classList.add('hide');} 
+    skills_body.classList.add('hide');
+ } 
 
 
 
 work.addEventListener('click', show_work)
 
-var show_work = function () { 
+var show_education = function () { 
     professional_body.classList.add('hide');
-     work_body.classList.remove('hide');
-     education_body.classList.add('hide');
-     skills.classList.add('hide');
-     tools.classList.add('hide');} 
+     work_body.classList.add('hide');
+     education_body.classList.remove('hide');
+     skills_body.classList.add('hide');
+     } 
  
 
 
 education.addEventListener('click', show_education)
 
-var show_work = function () { 
+var show_skills = function () { 
     professional_body.classList.add('hide');
      work_body.classList.add('hide');
-     education_body.classList.remove('hide');
-     skills.classList.add('hide');
-     tools.classList.add('hide');} 
+     education_body.classList.add('hide');
+     skills_body.classList.remove('hide');
+    } 
  
 
 
 skills.addEventListener('click', show_skills)
 
-var show_work = skills () {
-    professional_body.classList.add ('hide');
-    work_body.classList.add('hide');
-    education_body.classList.add('hide');
-    skills.classList.remove('hide');
-    tools.classList.add('hide');
-} 
+ 
  
 

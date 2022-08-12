@@ -109,9 +109,31 @@ align-items: center ;
 		}
 
 		.RESUMEnavbar{ display: flex;
-			justify-content: space-evenly;
-			align-items: center;
-			font-family: Arial, Helvetica, sans-serif;}
+			justify-content: left;
+			align-items: left;
+			font-family: Arial, Helvetica, sans-serif;
+			a:link 
+				color: black;
+				background-color: transparent;
+				text-decoration: none;
+			  
+			  a:visited 
+				color: black;
+				background-color: transparent;
+				text-decoration: none;
+			  
+			  a:hover 
+				color: red;
+				background-color: transparent;
+				text-decoration: none;
+			  
+			  a:active 
+				color: red;
+				background-color: transparent;
+				text-decoration: none;
+			  }
+	
+		}
 
 			.form{ display: flex;
 				justify-content: space-evenly;
