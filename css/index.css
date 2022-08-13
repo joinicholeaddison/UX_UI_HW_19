@@ -28,6 +28,7 @@ font-family: Arial, Helvetica, sans-serif;}
 	;padding-left: 80px ; padding-right: 80px;
 	column-gap: 50px;
 }
+
 .column3 { display: flex;
 	justify-content:center;
 	flex-direction:row;

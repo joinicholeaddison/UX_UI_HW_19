@@ -26,6 +26,7 @@ var show_professional = function () {
 
 professional.addEventListener('click', show_professional)
 
+
 var show_work = function () { 
    professional_body.classList.add('hide');
     work_body.classList.remove('hide');
@@ -59,6 +60,6 @@ var show_skills = function () {
 
 skills.addEventListener('click', show_skills)
 
- 
+
  
 
